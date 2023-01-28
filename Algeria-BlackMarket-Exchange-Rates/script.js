@@ -1,12 +1,28 @@
 const cont = document.getElementById('cont')
 const refBtn = document.getElementById('refrech')
+const github = document.getElementById('github')
+const info = document.getElementById('info')
+const close = document.getElementById('close')
 
 refBtn.addEventListener('click',function(event){
 
   location.reload()
 })
+close.addEventListener('click',function(event){
 
+  ToggleDisplay()
+})
 
+github.addEventListener('click',function(event){
+  ToggleDisplay()
+})
+ 
+function ToggleDisplay(){
+  if(info.style.display==="flex")
+  info.style.display="none"
+else
+info.style.display="flex"
+}
 
 async function GetPrices(){
    
@@ -37,5 +53,4 @@ async function GetPrices(){
  });
 }
 
- 
-GetPrices()
+ GetPrices()
