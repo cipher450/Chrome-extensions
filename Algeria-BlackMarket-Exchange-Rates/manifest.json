@@ -1,0 +1,11 @@
+{
+    "name": "Latest Crypto Prices",
+    "version": "1.0.0",
+    "description": "Latest Crypto Prices",
+    "manifest_version": 3,
+    "author": "Mustapha  ",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Latest Crypto Prices"
+    }
+}
