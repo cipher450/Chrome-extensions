@@ -7,5 +7,10 @@
     "action": {
         "default_popup": "index.html",
         "default_title": "Algeria BlackMarket ExchangeRates"
+    },
+    "icons": {
+        
+      
+        "128": "icon128.png"
     }
 }
