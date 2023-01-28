@@ -6,6 +6,7 @@ body {
 }
 
 .cont {
+  position: relative;
   max-width: 400;
   margin: 0;
   padding: 0;
@@ -38,4 +39,20 @@ td {
 th {
   padding: 5px;
   border-bottom: 1px solid black;
+}
+
+svg {
+  width: 60px;
+  position: absolute;
+  z-index: 999;
+  opacity: 30%;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+svg:hover {
+  opacity: 100%;
+  fill: #FFA500;
+  stroke: #fff;
+  stroke-width: 0.5;
 }/*# sourceMappingURL=syles.css.map */

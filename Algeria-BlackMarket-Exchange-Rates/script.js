@@ -1,4 +1,10 @@
 const cont = document.getElementById('cont')
+const refBtn = document.getElementById('refrech')
+
+refBtn.addEventListener('click',function(event){
+
+  location.reload()
+})
 
 
 
