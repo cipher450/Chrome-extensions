@@ -1,0 +1,11 @@
+{
+    "name": "Simple Calc",
+    "version": "1.0.0",
+    "description": "Simple Calculator",
+    "manifest_version": 3,
+    "author": "Mustapha  ",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Simple Calc"
+    }
+}
